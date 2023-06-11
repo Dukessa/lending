@@ -1,3 +1,9 @@
+:root {
+  --white: #ffffff;
+  --fon: #010f29;
+  --text: #e9f1ff;
+  --btn-fon: #efc348;
+}
 
 @media (max-width: 1174px) {
   .header__hero {
@@ -13,7 +19,7 @@
   }
 
   .preview {
-    padding: 60px 51px 0  51px;
+    padding: 60px 51px 0 51px;
   }
 
   .preview__btn-box::before {
@@ -21,23 +27,23 @@
   }
 
   .benefit {
-    padding: 0 51px 0  51px;
+    padding: 0 51px 0 51px;
   }
 
   .step {
-    padding: 53px  51px 66px  51px;
+    padding: 53px 51px 66px 51px;
   }
 
   .prof {
-    padding: 119px  51px 10px  51px;
+    padding: 119px 51px 10px 51px;
   }
 
   .partners {
-    padding: 98px  51px 139px  51px;
+    padding: 98px 51px 139px 51px;
   }
 
   .form {
-    padding: 101px  51px 108px  51px;;
+    padding: 101px 51px 108px 51px;
   }
 
   .text-bold {
@@ -47,17 +53,9 @@
   .footer__box {
     gap: 0;
   }
-
 }
 
 @media (max-width: 1000px) {
-  :root {
-    --white: #FFFFFF;
-    --fon: #010F29;
-    --text: #E9F1FF;
-    --btn-fon: #EFC348;
-  }
-
   /*header*/
   .button-media-428 {
     position: absolute;
@@ -69,7 +67,8 @@
     padding: 150px 41px 41px 41px;
     border: none;
     outline: none;
-    background-image: url('../img/bacground-header.png'), url('../img/Rectangle-header.png');
+    background-image: url("../img/bacground-header.png"),
+      url("../img/Rectangle-header.png");
     background-color: var(--fon);
     background-repeat: no-repeat;
     background-position: center;
@@ -200,7 +199,7 @@
     text-transform: uppercase;
   }
 
-  .hero_preview {
+  .hero__preview {
     flex-direction: column;
     padding: 41px 42px 50px 38px;
   }
@@ -385,7 +384,7 @@
     margin-right: 0;
   }
 
-  .prof__descr {
+  .description {
     margin-left: auto;
     font-size: 18px;
     line-height: 28px;
@@ -515,56 +514,11 @@
     width: 100%;
   }
 
-  .prof__descr {
+  .btn {
+    width: 100%;
+  }
+
+  .description {
     margin-left: 0;
   }
-
-  .preview__descr-animation:nth-child(1) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(2) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(3) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(4) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(5) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(6) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(7) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(8) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(9) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(10) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(11) {
-    animation: color 3s linear infinite;
-  }
-
-  .preview__descr-animation:nth-child(12) {
-    animation: color 3s linear infinite;
-  }
-
 }
