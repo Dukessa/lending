@@ -144,6 +144,7 @@
 
   .header__btn-box {
     flex-wrap: wrap;
+    margin-bottom: 0;
   }
 
   .header__btn-descr {
