@@ -482,6 +482,10 @@
     --text: #e9f1ff;
     --btn-fon: #efc348;
   }
+  
+  .btn {
+    width: 90%;
+  }
 
   .button-media-428 {
     position: absolute;
@@ -527,11 +531,6 @@
   .preview__btn {
     width: 90%;
   }
-
-  .btn {
-    width: 90%;
-  }
-
 
   .step__btn {
     width: 100%;
